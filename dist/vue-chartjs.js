@@ -255,11 +255,11 @@ function generateChart(chartId, chartType) {
         type: String
       },
       width: {
-        default: 400,
+        default: null,
         type: Number
       },
       height: {
-        default: 400,
+        default: null,
         type: Number
       },
       cssClasses: {
